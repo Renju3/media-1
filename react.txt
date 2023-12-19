@@ -1,0 +1,59 @@
+JSON Server
+============
+
+- it is a dummy back end Server
+- light weight and easy to use Node js tool that simulates a restful API
+  using a JSON file as data Source
+- with JSON server developers can create Mock API,
+  without the need to write complex backend code
+- easy to setup and userfriendly
+- by using JSON server,we can perform CRUD operation
+    crud oprtn- create, read, update, delete
+- it supports http methods (get, post, put, delete)
+- ability to create custom Route
+
+To initialize/create a Node js project
+========================================
+
+create a new folder
+then type: npm init -y
+this command initialize a new js project. A package.Json file is generated
+
+Creating a json server
+----------------------
+
+1) importing JSON server package and store  it into a variable
+2) by using create() method create a json server
+3) create a connection from json server to db.json file
+4) create a middleware
+5) set port, in which port this node appln need to run
+6) by using listen() method we can make the server running on particular port
+
+Data communication in React JS 
+------------------------------
+
+In React, by default, data communication is only possible from parent component
+to child component.
+But in some cases we need to send data between un-related components or between
+sibling components (child with same parent).
+
+Methods to achieve the above:
+1) Redux
+2) Content api 
+         above two are used to perform data communication between unrelated components
+3) State Lifting
+         to enable data communication between sibling components
+        In state Lifting, we create a state in parent component and passit to the child component
+        using props
+
+draggable in react js
+----------------------
+
+html 5 has 4 properities to make an html element drag and drop
+1) draggable: if we want to drag an html element,we need to set draggable attribute to true
+2) onDargStart: which calls immediately when drag start 
+                   usually the content to be dragged about to set at this point
+3) onDragOver: is aa as an even listener to the element, where the dragged content 
+               will be dropped. simply it is used to specify where the  content to be dropped
+4) onDrop: this is called immediately, the dragged content is realesed on the element it cpntains
+
